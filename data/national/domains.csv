@@ -1,0 +1,301 @@
+ccn,name,domain,source,confidence,alias,note
+010021,DALE MEDICAL CENTER,dalemedical.org,"hifld WEBSITE (phone, name score 100)",medium,,
+010131,CRESTWOOD MEDICAL CENTER,crestwoodmedcenter.com,dolthub homepage_url,high,,
+010149,BAPTIST MEDICAL CENTER EAST,baptistfirst.org,"hifld WEBSITE (state, name score 100)",medium,,
+010168,JACK HUGHSTON MEMORIAL HOSPITAL,al.hughston.com,dolthub homepage_url,medium,,
+020018,YUKON KUSKOKWIM DELTA REG HOSPITAL,ykhc.org,dolthub homepage_url,medium,,
+021302,PROVIDENCE SEWARD HOSPITAL,providence.org,"hifld WEBSITE (phone, name score 72)",medium,,
+021310,MANIILAQ HEALTH CENTER,maniilaq.org,"hifld WEBSITE (phone, name score 67)",medium,,
+030011,ST JOSEPH'S HOSPITAL,carondelet.org,system website (known system affiliation),medium,,
+030012,YAVAPAI REGIONAL MEDICAL CENTER,commonspirit.org,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain yrmc.org redirects to commonspirit.org
+030022,VALLEYWISE HEALTH MEDICAL CENTER,valleywisehealth.org,system website (known system affiliation),high,,
+030036,CHANDLER REGIONAL MEDICAL CENTER,commonspirit.org,system website (known system affiliation) -> parent system index,medium,,DEFECT: dignityhealth.org/cms-hpt.txt 404 (hospital's own site); file found via CommonSpirit index
+030065,BANNER DESERT MEDICAL CENTER,bannerhealth.com,dolthub homepage_url,high,,
+030071,FORT DEFIANCE INDIAN HOSPITAL,fdihb.org,"hifld WEBSITE (phone, name score 100)",medium,,
+030101,WESTERN ARIZONA REGIONAL MEDICAL CENTER,warmc.com,dolthub homepage_url,high,,
+030138,CITY OF HOPE CANCER CENTER PHOENIX,cityofhope.org,system website (known system affiliation),high,,
+031312,COPPER QUEEN COMMUNITY HOSPITAL,cqch.org,"hifld WEBSITE (zip, name score 100)",medium,,
+040017,NORTH ARKANSAS REGIONAL MEDICAL CENTER,narmc.com,"hifld WEBSITE (zip, name score 100)",medium,,
+040078,NATIONAL PARK MEDICAL CENTER,nationalparkmedical.com,dolthub homepage_url,medium,,
+040132,LEVI HOSPITAL,levihospital.com,"hifld WEBSITE (phone, name score 50)",medium,,listed domain dead (connection/SSL error or squatted redirect); no current domain found
+040154,BAPTIST HEALTH MEDICAL CENTER- CONWAY,baptist-health.com,system website (known system affiliation),high,,
+040161,ARKANSAS HEART HOSPITAL-ENCORE,arheart.com,system website (known system affiliation),medium,,
+041302,DARDANELLE REGIONAL MEDICAL CENTER,dardanelleregional.org,targeted web search,medium,,
+041313,OZARK HEALTH,ozarkhealth.net,dolthub homepage_url,high,,
+050060,COMMUNITY REGIONAL MEDICAL CENTER,communitymedical.org,dolthub homepage_url,medium,,
+050067,OAK VALLEY HOSPITAL DISTRICT,oakvalleyhospital.com,dolthub homepage_url,medium,,
+050071,KAISER FOUNDATION HOSPITAL-SANTA CLARA,healthy.kaiserpermanente.org,dolthub homepage_url -> homepage redirect,medium,Santa Clara Medical Center,listed domain thrive.kaiserpermanente.org redirects to healthy.kaiserpermanente.org; alias: renamed/legal entity name in index (verified by hand)
+050090,SONOMA VALLEY HOSPITAL,sonomavalleyhospital.org,dolthub homepage_url,medium,,
+050150,SIERRA NEVADA MEMORIAL HOSPITAL,commonspirit.org,system website (known system affiliation) -> parent system index,medium,,listed domain snmh.org dead/stale/failing; replaced; DEFECT: dignityhealth.org/cms-hpt.txt 404 (hospital's own site); file found via CommonSpirit index
+050158,ENCINO HOSPITAL MEDICAL CENTER,encinomed.org,targeted web search,high,,listed domain encinomed.com dead/stale/failing; replaced
+050191,ST MARY MEDICAL CENTER,commonspirit.org,"hifld WEBSITE (state, name score 98) -> homepage redirect",medium,,listed domain stmarymedicalcenter.org redirects to commonspirit.org
+050226,AHMC ANAHEIM REGIONAL MEDICAL CENTER,ahmchealth.com,dolthub homepage_url,medium,,
+050231,POMONA VALLEY HOSPITAL MEDICAL CENTER,pvhmc.org,"hifld WEBSITE (zip, name score 100)",medium,,
+050234,SHARP CORONADO HOSPITAL AND HLTHCR CTR,sharp.com,"hifld WEBSITE (zip, name score 82)",low,,
+050289,AHMC SETON MEDICAL CENTER,ahmchealth.com,dolthub homepage_url,medium,,
+050290,SAINT JOHN'S HEALTH CENTER,california.providence.org,"hifld WEBSITE (zip, name score 79)",low,,
+050308,EL CAMINO HEALTH,elcaminohealth.org,"hifld WEBSITE (zip, name score 76) -> homepage redirect",low,El Camino Hospital (Mountain View),listed domain elcaminohospital.org redirects to elcaminohealth.org; alias: renamed/legal entity name in index (verified by hand)
+050376,LAC/HARBOR-UCLA MED CENTER,dhs.lacounty.gov,system website (known system affiliation),high,,listed domain humc.edu dead/stale/failing; replaced
+050455,ADVENTIST HEALTH BAKERSFIELD,adventisthealth.org,dolthub homepage_url,medium,-,alias: no index entry for this hospital (verified by hand)
+050523,SUTTER DELTA MEDICAL CENTER,sutterhealth.org,dolthub homepage_url,high,,
+050588,SAN DIMAS COMMUNITY HOSPITAL,sandimashospital.com,"hifld WEBSITE (zip, name score 100)",medium,,
+050696,KECK HOSPITAL OF USC,keckmedicine.org,system website (known system affiliation),high,,listed domain keckhospitalofusc.org dead/stale/failing; replaced
+050717,LAC/RANCHO LOS AMIGOS NATIONAL REHABILITATION  CTR,dhs.lacounty.gov,"hifld WEBSITE (zip, name score 87) -> homepage redirect",medium,,listed domain rancho.org redirects to dhs.lacounty.gov
+050772,KAISER FOUNDATION HOSPITAL - ROSEVILLE,healthy.kaiserpermanente.org,dolthub homepage_url,high,Roseville Medical Center,alias: renamed/legal entity name in index (verified by hand)
+051303,MAMMOTH HOSPITAL,mammothhospital.com,"hifld WEBSITE (zip, name score 100)",medium,,
+051320,BANNER LASSEN MEDICAL CENTER,bannerhealth.com,dolthub homepage_url,high,,
+060103,ADVENTHEALTH AVISTA,adventhealth.com,system website (known system affiliation),high,,bulk domain centura.org was another hospital/system; replaced
+061315,YUMA DISTRICT HOSPITAL,yumahospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+070018,GREENWICH HOSPITAL ASSOCIATION -,ynhhs.org,system website (known system affiliation),medium,,listed domain greenhosp.org dead/stale/failing; replaced
+070033,DANBURY HOSPITAL,danburyhospital.org,"hifld WEBSITE (zip, name score 100)",medium,,
+070035,THE HOSPITAL OF CENTRAL CONNECTICUT,thocc.org,"hifld WEBSITE (phone, name score 100)",medium,,
+080003,ST FRANCIS HOSPITAL,trinityhealthma.org,"hifld WEBSITE (zip, name score 97) -> homepage redirect",medium,,listed domain stfrancishealthcare.org redirects to trinityhealthma.org
+100001,SHANDS JACKSONVILLE,ufhealthjax.org,system website (known system affiliation),high,,
+100099,ADVENTHEALTH LAKE WALES,adventhealth.com,system website (known system affiliation),high,,listed domain lakewalesmedicalcenter.com dead/stale/failing; replaced
+100135,TALLAHASSEE MEMORIAL HEALTHCARE,tmh.org,"hifld WEBSITE (zip, name score 80)",low,,
+100173,ADVENTHEALTH TAMPA,adventhealth.com,dolthub homepage_url,high,,
+100187,PALMETTO GENERAL HOSPITAL,palmettogeneral.org,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain palmettogeneral.com redirects to palmettogeneral.org
+100275,WELLINGTON REGIONAL MEDICAL CENTER,wellingtonregional.com,"hifld WEBSITE (phone, name score 100)",medium,,
+100290,"VILLAGES REGIONAL HOSPITAL, THE",ufhealth.org,system website (known system affiliation),medium,,listed domain tvrh.org dead/stale/failing; replaced
+100329,OVIEDO MEDICAL CENTER,hcafloridahealthcare.com,"hifld WEBSITE (zip, name score 100) -> homepage redirect",medium,,listed domain oviedomedicalcenter.com redirects to hcafloridahealthcare.com
+110005,NORTHSIDE HOSPITAL FORSYTH,northside.com,"hifld WEBSITE (zip, name score 100)",medium,,
+110008,NORTHSIDE HOSPITAL CHEROKEE,northside.com,"hifld WEBSITE (state, name score 96)",medium,,
+110025,SOUTHEAST GEORGIA HEALTH SYSTEM- BRUNSWICK CAMPUS,sghs.org,system website (known system affiliation),high,,
+110034,"WELLSTAR MCG HEALTH, AFFILIATED WITH MED COL",wellstar.org,system website (known system affiliation),high,,
+110038,ARCHBOLD MEMORIAL HOSPITAL,archbold.org,dolthub homepage_url,medium,,
+110087,NORTHSIDE HOSPITAL GWINNETT,northside.com,system website (known system affiliation),high,,listed domain gwinnettmedicalcenter.org dead/stale/failing; replaced
+110100,JEFFERSON HOSPITAL,ahn.org,dolthub homepage_url,medium,,
+110122,SGMC HEALTH,sgmc.org,system website (known system affiliation),high,,
+110146,SOUTHEAST GEORGIA HEALTH SYSTEM -- CAMDEN CAMPUS,sghs.org,"hifld WEBSITE (zip, name score 99)",medium,,
+111302,BLECKLEY MEMORIAL HOSPITAL,bleckleymemorial.com,"hifld WEBSITE (phone, name score 100)",medium,,
+111305,MILLER COUNTY HOSPITAL,millercountyhospital.com,dolthub homepage_url,medium,,
+111310,ATRIUM HEALTH NAVICENT PEACH,atriumhealth.org,system website (known system affiliation),medium,-,alias: no index entry for this hospital (verified by hand)
+111318,MONROE COUNTY HOSPITAL,monroehospital.org,"hifld WEBSITE (zip, name score 100)",medium,,
+111326,SGMC HEALTH LANIER,sgmc.org,system website (known system affiliation),high,,
+120001,THE QUEENS MEDICAL CENTER,queens.org,dolthub homepage_url,medium,,
+130014,WEST VALLEY MEDICAL CENTER,westvalleymedctr.com,dolthub homepage_url,medium,,
+140001,GRAHAM HOSPITAL ASSOCIATION,grahamhospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+140084,VISTA MEDICAL CENTER EAST,vistahealth.com,"hifld WEBSITE (zip, name score 100)",medium,,
+140114,SWEDISH HOSPITAL,endeavorhealth.org,"hifld WEBSITE (phone, name score 78) -> homepage redirect",medium,,listed domain schosp.org redirects to endeavorhealth.org
+140124,JOHN H STROGER JR HOSPITAL,cookcountyhealth.org,system website (known system affiliation),high,,listed domain cookcountyhealth.net dead/stale/failing; replaced
+140145,ST JOSEPHS HOSPITAL,hshs.org,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain stjoebreese.com redirects to hshs.org
+140162,ST JOSEPH MEDICAL CENTER,osfhealthcare.org,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain osfstjoseph.org redirects to osfhealthcare.org
+140164,MEMORIAL HOSPITAL OF CARBONDALE,sih.net,"hifld WEBSITE (phone, name score 100)",medium,,
+140187,HSHS ST ELIZABETH'S HOSPITAL,hshs.org,"hifld WEBSITE (phone, name score 86) -> homepage redirect",medium,,listed domain steliz.org redirects to hshs.org
+140191,INGALLS MEMORIAL HOSPITAL,uchicagomedicine.org,system website (known system affiliation),high,,listed domain ingallshealthsystem.org dead/stale/failing; replaced
+140228,UW HEALTH,uwhealth.org,system website (known system affiliation),high,SwedishAmerican Hospital,alias: renamed/legal entity name in index (verified by hand)
+140252,NORTHWEST COMMUNITY HOSPITAL 1,endeavorhealth.org,system website (known system affiliation),high,,listed domain nch.org dead/stale/failing; replaced
+140258,ALEXIAN BROTHERS MEDICAL CENTER 1,healthcare.ascension.org,system website (known system affiliation),high,,listed domain alexian.org dead/stale/failing; replaced
+140286,NORTHWESTERN MEDICINE KISHWAUKEE HOSPITAL,nm.org,dolthub homepage_url,high,,
+140308,MERCYHEALTH HOSPITAL & PHYSICIAN CLINIC-CRYSTAL LA,mercyhealthsystem.org,system website (known system affiliation),high,,
+141308,WASHINGTON COUNTY HOSPITAL,washingtoncountyhospital.org,name-pattern guess (verified: site lists Nashville IL),high,,
+141323,MASSAC MEMORIAL HOSPITAL,massachealth.org,"hifld WEBSITE (phone, name score 100)",medium,,listed domain dead (connection/SSL error or squatted redirect); no current domain found
+141331,MARSHALL BROWNING HOSPITAL,marshallbrowninghospital.com,targeted web search,medium,,listed domain mbhdq.com dead/stale/failing; replaced
+141339,TAYLORVILLE MEMORIAL HOSPITAL,memorial.health,system website (known system affiliation),medium,,listed domain taylorvillememorial.org dead/stale/failing; replaced
+150006,NORTHWEST HEALTH-LA PORTE,nwhealthlaporte.com,dolthub homepage_url,high,,
+150007,COMMUNITY HOWARD REGIONAL HEALTH INC.,ecommunity.com,dolthub homepage_url,medium,,
+150023,UNION HOSPITAL INC,uhhg.org,"hifld WEBSITE (phone, name score 100)",medium,,
+150149,THE WOMEN'S HOSPITAL,deaconess.com,dolthub homepage_url,medium,,
+150177,UNITY PHYSICIANS HOSPITAL,unityphysicianshospital.com,name-pattern guess (verified: index entry names Unity Physicians Hospital),high,,listed domain physicianshospitalsystem.net redirects to neuropsychiatrichospitals.net; bulk domain neuropsychiatrichospitals.net was another hospital/system; replaced
+151305,PULASKI MEMORIAL HOSPITAL,pmhnet.com,dolthub homepage_url,medium,,
+151325,ASCENSION ST VINCENT WARRICK,healthcare.ascension.org,system website (known system affiliation),high,,listed domain stvincent.org dead/stale/failing; replaced
+151328,INDIANA UNIVERSITY HEALTH BEDFORD HOSPITAL,iuhealth.org,system website (known system affiliation),high,,listed domain iuhealth.com dead/stale/failing; replaced
+160045,ST LUKES HOSPITAL,unitypoint.org,dolthub homepage_url,medium,,
+160101,BROADLAWNS MEDICAL CENTER,broadlawns.org,"hifld WEBSITE (phone, name score 100)",medium,,
+161332,MANNING REGIONAL HEALTHCARE CENTER,mrhcia.com,dolthub homepage_url,medium,,
+161334,HUMBOLDT COUNTY MEMORIAL HOSPITAL,humboldthospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+161350,STEWART MEMORIAL COMMUNITY HOSPITAL,stewartmemorial.org,"hifld WEBSITE (zip, name score 100)",medium,,
+161368,FLOYD VALLEY HEALTHCARE,avera.org,dolthub homepage_url,high,,
+170006,"MERCY HOSPITAL PITTSBURG, INC",mercy.net,system website (verified: index entry 'Mercy Hospital Pittsburg'),high,Mercy Hospital Pittsburg,bulk domain healthcare.ascension.org was another hospital/system; replaced; alias: renamed/legal entity name in index (verified by hand)
+170009,SAINT JOHN HOSPITAL,stjohnleavenworth.com,"hifld WEBSITE (phone, name score 100)",medium,,
+170120,LABETTE HEALTH,labettehealth.com,"hifld WEBSITE (zip, name score 100)",medium,,
+170196,"KANSAS SPINE & SPECIALTY HOSPITAL, LLC",ksspine.com,"hifld WEBSITE (zip, name score 79)",low,,
+171313,KEARNY COUNTY HOSPITAL,kearnycountyhospital.com,dolthub homepage_url,high,,
+171327,ELLSWORTH COUNTY MEDICAL CENTER,ewmed.com,dolthub homepage_url,medium,,
+171336,NESS COUNTY HOSPITAL DISTRICT #2,nchospital.org,targeted web search,medium,,listed domain nesscountyhospital.com dead/stale/failing; replaced
+171338,GREAT PLAINS OF SABETHA,sabethahospital.com,dolthub homepage_url,medium,,
+171339,GREENWOOD COUNTY HOSPITAL,gwch.org,"hifld WEBSITE (phone, name score 100)",medium,,
+171344,WILSON MEDICAL CENTER,wilsonmedical.org,dolthub homepage_url,medium,,
+171358,LINDSBORG COMMUNITY HOSPITAL,lindsborghospital.org,dolthub homepage_url,medium,,
+171370,GOODLAND REGIONAL MEDICAL CENTER,goodlandregional.com,"hifld WEBSITE (phone, name score 100)",medium,,
+171374,FREDONIA REGIONAL HOSPITAL,frh1.org,dolthub homepage_url,medium,,
+180048,EPHRAIM MCDOWELL REGIONAL MEDICAL CENTER,emrmc.org,"hifld WEBSITE (phone, name score 100)",medium,,
+180050,HARLAN ARH HOSPITAL,arh.org,"hifld WEBSITE (phone, name score 100)",medium,,
+180051,JENNIE STUART MEDICAL CENTER,jsmc.org,"hifld WEBSITE (phone, name score 100)",medium,,
+180101,GEORGETOWN COMMUNITY HOSPITAL,centerpointhealth.com,dolthub homepage_url -> homepage redirect,medium,Centerpoint Health - Georgetown,listed domain georgetowncommunityhospital.com redirects to centerpointhealth.com; alias: renamed/legal entity name in index (verified by hand)
+180132,LAKE CUMBERLAND REGIONAL HOSPITAL,lakecumberlandhospital.com,dolthub homepage_url,medium,,
+181309,CASEY COUNTY HOSPITAL,caseycountyhospital.com,targeted web search,medium,,
+181317,CUMBERLAND COUNTY HOSPITAL,cchospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+190015,NORTH OAKS MEDICAL CENTER,northoaks.org,"hifld WEBSITE (phone, name score 100)",medium,,
+190020,LANE REGIONAL MEDICAL CENTER,lanermc.org,"hifld WEBSITE (phone, name score 100)",medium,,
+190086,NORTHERN LOUISIANA MEDICAL CENTER,northernlouisianamedicalcenter.com,"hifld WEBSITE (phone, name score 100)",medium,,
+190274,OCHSNER MEDICAL CENTER-KENNER,ochsner.org,"hifld WEBSITE (zip, name score 92)",medium,,
+190313,NEW ORLEANS EAST HOSPITAL,lcmchealth.org,system website (known system affiliation),medium,,listed domain noehospital.org dead/stale/failing; replaced
+190318,ACADIAN MEDICAL CENTER,acadianmedicalcenter.com,targeted web search,medium,,
+190319,ALEXANDRIA HOSPITAL,nutexhealth.com,targeted web search,low,,
+191309,HOOD MEMORIAL HOSPITAL,hoodmemorial.com,"hifld WEBSITE (phone, name score 100)",medium,,
+210039,CALVERTHEALTH MEDICAL CENTER,calverthealthmedicine.org,"hifld WEBSITE (zip, name score 77)",low,,
+210043,UNIVERSITY OF MD BALTIMORE WASHINGTON MEDICAL CENTER,umms.org,"hifld WEBSITE (phone, name score 99) -> homepage redirect",medium,,listed domain mybwmc.org redirects to umms.org
+210061,ATLANTIC GENERAL HOSPITAL,atlanticgeneral.org,system website (known system affiliation),high,,listed domain atlanticgeneral.co dead/stale/failing; replaced
+220001,UMASS MEMORIAL HEALTHALLIANCE HOSPITALS,ummhealth.org,system website (known system affiliation),high,"HealthAlliance-Clinton, Leominster Campus",alias: renamed/legal entity name in index (verified by hand)
+220074,SOUTHCOAST HOSPITALS GROUP,southcoast.org,system website (known system affiliation),high,Charlton Memorial Hospital,alias: renamed/legal entity name in index (verified by hand)
+230024,SINAI-GRACE HOSPITAL,dmc.org,dolthub homepage_url,high,,
+230077,MYMICHIGAN MEDICAL CENTER SAGINAW,mymichigan.org,system website (known system affiliation),high,,listed domain stmarysofmichigan.org dead/stale/failing; replaced
+230208,UNIVERSITY OF MICHIGAN HEALTH-SPARROW CARSON,uofmhealthsparrow.org,system website (known system affiliation),medium,,
+230241,ASCENSION RIVER DISTRICT HOSPITAL,healthcare.ascension.org,dolthub homepage_url,high,-,alias: no index entry for this hospital (verified by hand)
+241330,CENTRACARE HEALTH SYSTEM - MELROSE HOSPITAL,centracare.com,"hifld WEBSITE (zip, name score 81)",low,,
+250002,TISHOMINGO HEALTH SERVICES INC,nmhs.net,"hifld WEBSITE (phone, name score 100)",medium,,
+250077,WAYNE GENERAL HOSPITAL,waynegeneralhospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+250162,OCHSNER MEDICAL CENTER-HANCOCK,ochsner.org,system website (known system affiliation),high,,listed domain hmc.org dead/stale/failing; replaced
+251330,FRANKLIN COUNTY MEMORIAL HOSPITAL,fcmh.net,"hifld WEBSITE (phone, name score 100)",medium,,
+261307,PERSHING MEMORIAL HOSPITAL,phsmo.org,"hifld WEBSITE (phone, name score 76) -> homepage redirect",medium,,listed domain pershinghealthsystem.com redirects to phsmo.org
+261323,CEDAR COUNTY MEMORIAL HOSPITAL,cedarcountyhospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+261324,CASS REGIONAL MEDICAL CENTER,cassregional.org,dolthub homepage_url,medium,,
+271304,MISSOURI RIVER MEDICAL CENTER,benefis.org,system website (known system affiliation),medium,,listed domain mrmcfb.org dead/stale/failing; replaced
+271308,ROOSEVELT MEDICAL CENTER,roosmem.org,"hifld WEBSITE (phone, name score 100)",medium,,listed domain dead (connection/SSL error or squatted redirect); no current domain found
+271314,DEER LODGE MEDICAL CENTER,dlmed.org,targeted web search,medium,,listed domain pcmh.org dead/stale/failing; replaced
+271319,RUBY VALLEY MEDICAL CENTER,rvmc.org,targeted web search,medium,,
+271324,PONDERA MEDICAL CENTER,logan.org,dolthub homepage_url,medium,Logan Health - Conrad,alias: renamed/legal entity name in index (verified by hand)
+271325,ST LUKE COMMUNITY HOSPITAL,stlukehealthcare.org,targeted web search,high,,listed domain stlukehealthnet.org dead/stale/failing; replaced
+271345,CENTRAL MONTANA MEDICAL CENTER,cmmc.health,targeted web search,medium,,listed domain cmmccares.com dead/stale/failing; replaced
+280013,THE NEBRASKA MEDICAL CENTER,nebraskamed.com,"hifld WEBSITE (zip, name score 100)",medium,,
+281312,GENOA COMMUNITY HOSPITAL,genoamedical.org,"hifld WEBSITE (phone, name score 100)",medium,,
+281318,MORRILL COUNTY COMMUNITY HOSPITAL,morrillcountyhospital.com,targeted web search,medium,,listed domain morrillcountyhospital.org dead/stale/failing; replaced
+281324,NEMAHA COUNTY HOSPITAL,nemahacountyhospital.com,targeted web search,medium,,listed domain nchnet.org dead/stale/failing; replaced
+281348,TRI VALLEY HEALTH SYSTEM,trivalleyhealth.com,dolthub homepage_url,medium,,
+281364,"BEATRICE COMMUNITY HOSPITAL & HEALTH CENTER, INC",beatricecommunityhospital.com,"hifld WEBSITE (phone, name score 99)",medium,,
+290041,SUMMERLIN HOSPITAL MEDICAL CENTER,summerlinhospital.com,"hifld WEBSITE (phone, name score 100)",medium,,
+290053,SAINT ROSE DOMINICAN HOSPITALS - SAN MARTIN CAMPUS,commonspirit.org,system website (known system affiliation) -> parent system index,medium,San Martin Hospital,listed domain strosehospitals.org dead/stale/failing; replaced; DEFECT: dignityhealth.org/cms-hpt.txt 404 (hospital's own site); file found via CommonSpirit index; alias: renamed/legal entity name in index (verified by hand)
+290058,SAINT ROSE DOMINICAN HOSPITALS - NORTH LAS VEGAS,commonspirit.org,system website (known system affiliation) -> parent system index,medium,,DEFECT: dignityhealth.org/cms-hpt.txt 404 (hospital's own site); file found via CommonSpirit index
+300011,ST JOSEPH HOSPITAL,stjosephhospital.com,"hifld WEBSITE (phone, name score 100)",medium,,
+301308,VALLEY REGIONAL HOSPITAL,vrh.org,"hifld WEBSITE (phone, name score 100)",medium,,
+310016,HEIGHTS UNIVERSITY HOSPITAL,hudsonregionalhealth.com,targeted web search,low,,hospital closed 2026-03-14 (ED suspended; inpatient ended Nov 2025) per news; kept in fixed sample
+310022,WEST JERSEY HOSPITAL,virtua.org,system website (known system affiliation),medium,Virtua Voorhees Hospital,alias: renamed/legal entity name in index (verified by hand)
+310039,RARITAN BAY MEDICAL CENTER,hackensackmeridianhealth.org,system website (known system affiliation),high,,listed domain rbmc.org dead/stale/failing; replaced
+310050,SAINT CLARE'S HOSPITAL/ DENVILLE CAMPUS,saintclares.com,"hifld WEBSITE (zip, name score 87) -> homepage redirect",medium,,listed domain saintclares.org redirects to saintclares.com
+310115,AHS HOSPITAL CORP,atlantichealth.org,system website (known system affiliation),high,Hackettstown Medical Center,alias: renamed/legal entity name in index (verified by hand)
+310118,HUDSON REGIONAL HOSPITAL,hudsonregionalhospital.com,targeted web search,medium,Secaucus University Hospital,listed domain meadowlandshospital.org dead/stale/failing; replaced; alias: renamed/legal entity name in index (verified by hand)
+320002,CHRISTUS ST VINCENT REGIONAL MEDICAL CENTER,christushealth.org,dolthub homepage_url,high,,
+321301,SOCORRO GENERAL HOSPITAL,socorro-general-hospital.phs.org,"hifld WEBSITE (zip, name score 100)",medium,,
+321302,DR DAN C TRIGG MEMORIAL HOSPITAL,danctrigg-memorial-hospital.phs.org,"hifld WEBSITE (phone, name score 94)",medium,,
+330078,SISTERS OF CHARITY HOSPITAL,chsbuffalo.org,"hifld WEBSITE (phone, name score 100)",medium,,
+330080,LINCOLN MEDICAL & MENTAL HEALTH CENTER,nychealthandhospitals.org,system website (known system affiliation),high,,
+330100,NY EYE AND EAR INFIRMARY OF MOUNT SINAI,nyee.edu,"hifld WEBSITE (phone, name score 75)",medium,,
+330169,MOUNT SINAI BETH ISRAEL,mountsinai.org,dolthub homepage_url,high,-,alias: no index entry for this hospital (verified by hand)
+330184,MONTEFIORE NEW ROCHELLE HOSPITAL,montefiore.org,system website (known system affiliation),medium,-,listed domain montefiorehs.org dead/stale/failing; replaced; alias: no index entry for this hospital (verified by hand)
+330196,SOUTH BROOKLYN HEALTH,nychealthandhospitals.org,system website (known system affiliation),high,,
+330224,HEALTHALLIANCE HOSPITAL MARYS AVENUE CAMPUS,wmchealth.org,"hifld WEBSITE (phone, name score 94) -> homepage redirect",medium,,listed domain hahv.org redirects to wmchealth.org
+330238,NICHOLAS H NOYES MEMORIAL HOSPITAL,urmc.rochester.edu,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain noyes-health.org redirects to urmc.rochester.edu
+330273,PUTNAM HOSPITAL CENTER,nuvancehealth.org,system website (known system affiliation),medium,,listed domain health-quest.org dead/stale/failing; replaced
+330331,PLAINVIEW HOSPITAL,plainview.northwell.edu,dolthub homepage_url,medium,,
+330332,CHSLI ST JOSEPH HOSPITAL,stjosephhospital.chsli.org,"hifld WEBSITE (zip, name score 84)",low,,
+330406,SUNNYVIEW HOSPITAL AND REHABILITATION CENTER,sphp.com,dolthub homepage_url,medium,,
+331318,"CARTHAGE AREA HOSPITAL, INC",carthagehospital.com,"hifld WEBSITE (phone, name score 90)",medium,,
+331322,"SLHS MASSENA, INC",stlawrencehealthsystem.org,system website (known system affiliation),medium,Massena Hospital,alias: renamed/legal entity name in index (verified by hand)
+340024,SAMPSON REGIONAL MEDICAL CENTER,sampsonrmc.org,dolthub homepage_url,medium,,
+340039,IREDELL MEMORIAL HOSPITAL INC,iredellhealth.org,"hifld WEBSITE (zip, name score 87) -> homepage redirect",medium,,listed domain iredellmemorial.org redirects to iredellhealth.org
+340060,UNC ROCKINGHAM,unchealth.org,system website (known system affiliation),medium,,
+340166,ATRIUM HEALTH UNIVERSITY CITY,atriumhealth.org,system website (known system affiliation),high,,
+341326,ANGEL MEDICAL CENTER,missionhealth.org,dolthub homepage_url,high,,
+341328,ERLANGER MURPHY MEDICAL CENTER,erlanger.org,system website (known system affiliation),high,Erlanger Western Carolina Hospital,listed domain murphymedical.org dead/stale/failing; replaced; alias: renamed/legal entity name in index (verified by hand)
+350070,ESSENTIA HEALTH,essentiahealth.org,"hifld WEBSITE (phone, name score 83)",medium,,
+351311,LISBON AREA HEALTH SERVICES,lisbonhospital.com,"hifld WEBSITE (zip, name score 100)",medium,,
+351326,FIRST CARE HEALTH CENTER,firstcarehc.com,"hifld WEBSITE (phone, name score 100)",medium,,
+360027,AKRON GENERAL MEDICAL CENTER,my.clevelandclinic.org,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain akrongeneral.org redirects to my.clevelandclinic.org
+360029,WOOD COUNTY HOSPITAL,woodcountyhospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+360041,PARMA COMMUNITY GENERAL HOSPITAL,uhhospitals.org,dolthub homepage_url,medium,University Hospitals Parma Medical Center,alias: renamed/legal entity name in index (verified by hand)
+360098,LAKE HEALTH,lakehealth.org,system website (known system affiliation),medium,University Hospitals Tripoint Medical Center,alias: renamed/legal entity name in index (verified by hand)
+360123,UH ST JOHN MEDICAL CENTER,uhhospitals.org,dolthub homepage_url,medium,,
+360131,ALLIANCE COMMUNITY HOSPITAL,achosp.org,"hifld WEBSITE (phone, name score 100)",medium,,
+360148,POMERENE HOSPITAL,pomerenehospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+360172,MERCY REGIONAL MEDICAL CENTER,mercy.com,dolthub homepage_url,high,Lorain Hospital,alias: renamed/legal entity name in index (verified by hand)
+360179,BETHESDA NORTH,trihealth.com,"hifld WEBSITE (phone, name score 100)",medium,,
+360218,LICKING MEMORIAL HOSPITAL,lmhealth.org,"hifld WEBSITE (phone, name score 100)",medium,,
+360263,INSTITUTE FOR ORTHOPAEDIC SURGERY,ioshospital.com,"hifld WEBSITE (phone, name score 98)",medium,,
+360352,SURGICAL HOSPITAL AT SOUTHWOODS,southwoodshealth.com,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain surgeryatsouthwoods.com redirects to southwoodshealth.com
+361309,"HENRY COUNTY HOSPITAL, INC",henrycountyhospital.org,"hifld WEBSITE (phone, name score 98)",medium,,
+361315,HARDIN MEMORIAL HOSPITAL,ohiohealth.com,"hifld WEBSITE (zip, name score 100) -> homepage redirect",medium,,listed domain hardinmemorial.org redirects to ohiohealth.com
+361326,ADAMS COUNTY REGIONAL MEDICAL CENTER,acrmc.com,dolthub homepage_url,medium,,listed domain dead (connection/SSL error or squatted redirect); no current domain found
+361329,WYANDOT MEMORIAL HOSPITAL,wyandotmemorial.org,"hifld WEBSITE (phone, name score 100)",medium,,
+361332,HIGHLAND DISTRICT HOSPITAL,hdh.org,"hifld WEBSITE (phone, name score 100)",medium,,
+370008,NORMAN REGIONAL,normanregional.com,"hifld WEBSITE (zip, name score 73)",low,,
+370054,GRADY MEMORIAL HOSPITAL,gradymem.org,"hifld WEBSITE (phone, name score 100)",medium,,
+370240,INTEGRIS COMMUNITY HOSPITAL - COUNCIL CROSSING,integrisok.com,system website (known system affiliation),high,,
+370247,EXCEPTIONAL COMMUNITY HOSPITAL ARDMORE,ehc24.com,targeted web search,medium,,
+371302,"MERCY HOSPITAL WATONGA, INC",mercy.net,dolthub homepage_url,medium,,
+380075,PROVIDENCE MEDFORD MEDICAL CENTER,oregon.providence.org,"hifld WEBSITE (zip, name score 100)",medium,,
+381301,PEACEHEALTH COTTAGE GROVE COMMUNITY MEDICAL CENTER,peacehealth.org,dolthub homepage_url,medium,,
+381303,PROVIDENCE SEASIDE HOSPITAL,providence.org,"hifld WEBSITE (zip, name score 100)",medium,,
+381325,GOOD SHEPHERD MEDICAL CENTER,christushealth.org,"hifld WEBSITE (zip, name score 100) -> homepage redirect",medium,,listed domain gsmc.org redirects to christushealth.org
+390079,ROBERT PACKER HOSPITAL,guthrie.org,"hifld WEBSITE (phone, name score 100)",medium,,
+390168,INDEPENDENCE HEALTH SYSTEM BUTLER MEMORIAL HOSPITA,butlerhealthsystem.org,"hifld WEBSITE (phone, name score 62)",medium,Butler Memorial Hospital,alias: renamed/legal entity name in index (verified by hand)
+390231,JEFFERSON ABINGTON HOSPITAL,jeffersonhealth.org,system website (known system affiliation),high,,listed domain amh.org dead/stale/failing; replaced
+390323,ADVANCED SURGICAL HOSPITAL,ashospital.net,"hifld WEBSITE (phone, name score 100)",medium,,
+390328,UPMC EAST,upmc.com,dolthub homepage_url,medium,,
+391309,BARNES-KASSON COUNTY HOSPITAL,barnes-kasson.org,"hifld WEBSITE (phone, name score 100)",medium,,
+391315,PENN HIGHLANDS ELK,phhealthcare.org,system website (known system affiliation),high,,listed domain elkregional.org dead/stale/failing; replaced
+410007,RHODE ISLAND HOSPITAL,brownhealth.org,"hifld WEBSITE (state, name score 100) -> homepage redirect",medium,,listed domain rhodeislandhospital.org redirects to brownhealth.org
+420002,PIEDMONT MEDICAL CENTER,piedmontmedicalcenter.com,"hifld WEBSITE (phone, name score 100)",medium,,
+420004,MUSC MEDICAL CENTER,muschealth.org,"hifld WEBSITE (zip, name score 100) -> homepage redirect",medium,,listed domain muschealth.com redirects to muschealth.org
+420033,PRISMA HEALTH GREER MEMORIAL HOSPITAL,prismahealth.org,system website (known system affiliation),high,,
+420065,BON SECOURS-ST FRANCIS XAVIER HOSPITAL,rsfh.com,"hifld WEBSITE (zip, name score 100) -> homepage redirect",medium,,listed domain ropersaintfrancis.com redirects to rsfh.com
+420067,BEAUFORT COUNTY MEMORIAL HOSPITAL,bmhsc.org,"hifld WEBSITE (phone, name score 88)",medium,,
+420072,HAMPTON REGIONAL MEDICAL CENTER,hamptonregional.org,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain hamptonregional.com redirects to hamptonregional.org
+420087,ROPER HOSPITAL,rsfh.com,"hifld WEBSITE (zip, name score 100) -> homepage redirect",medium,,listed domain ropersaintfrancis.com redirects to rsfh.com
+421304,EDGEFIELD COUNTY HEALTHCARE AN AFFILIATE OF SELF R,selfregional.org,system website (known system affiliation),medium,,listed domain myech.org dead/stale/failing; replaced
+430027,SANFORD USD MEDICAL CENTER,sanfordhealth.org,dolthub homepage_url,medium,,
+431302,AVERA MISSOURI RIVER HEALTH CENTER,avera.org,system website (known system affiliation),high,,
+431305,DOUGLAS COUNTY MEMORIAL HOSPITAL-CAH,dcmhsd.org,dolthub homepage_url,medium,,
+431310,AVERA FLANDREAU HOSPITAL - CAH,avera.org,dolthub homepage_url,high,,
+440084,SWEETWATER HOSPITAL ASSOCIATION,sweetwaterhospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+450010,UNITED REGIONAL HEALTH CARE SYSTEM,unitedregional.org,system website (known system affiliation),high,,listed domain urhcs.org dead/stale/failing; replaced
+450023,CITIZENS MEDICAL CENTER,cmcvictoria.com,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain citizensmedicalcenter.org redirects to cmcvictoria.com
+450054,BAYLOR SCOTT & WHITE MEDICAL CENTER - TEMPLE,bswhealth.com,"hifld WEBSITE (phone, name score 89) -> homepage redirect",medium,,listed domain sw.org redirects to bswhealth.com
+450668,SIERRA MEDICAL CENTER,thehospitalsofprovidence.com,dolthub homepage_url,high,,
+450730,CARROLLTON REGIONAL MEDICAL CENTER,crmc.health,targeted web search,medium,,listed domain baylorhealth.com redirects to bswhealth.com; bulk domain bswhealth.com was another hospital/system; replaced
+450743,TEXAS HEALTH PRESBYTERIAN HOSPITAL DENTON,texashealth.org,dolthub homepage_url,high,,
+450831,SURGERY SPECIALTY HOSPITALS OF AMERICA SE HOUSTON,sshainc-houston.com,targeted web search,low,,listed domain backsurgeryhouston.com dead/stale/failing; replaced
+450876,LUBBOCK HEART HOSPITAL LP,lubbockheart.com,targeted web search,medium,,listed domain lubbockhearthospital.com dead/stale/failing; replaced
+451306,KIMBLE HOSPITAL,kimblehospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+451313,FISHER COUNTY HOSPITAL DISTRICT,fishercountyhospital.com,"hifld WEBSITE (phone, name score 100)",medium,,
+451317,REFUGIO COUNTY MEMORIAL HOSPITAL,refugiohospital.com,dolthub homepage_url,medium,,
+451343,ELECTRA MEMORIAL HOSPITAL,electrahospital.com,"hifld WEBSITE (phone, name score 100)",medium,,
+451356,MEMORIAL MEDICAL CENTER,mmcportlavaca.com,dolthub homepage_url,medium,,
+451365,ASCENSION SETON HIGHLAND LAKES,healthcare.ascension.org,dolthub homepage_url,high,,
+451376,LAVACA MEDICAL CENTER,lavacamedicalcenter.org,name-pattern guess (verified: index entry 'Lavaca Medical Center'),high,,bulk domain mmcportlavaca.com was another hospital/system; replaced
+451386,MEMORIAL HOSPITAL,mchd.net,"hifld WEBSITE (zip, name score 100)",medium,,
+451387,UVALDE MEMORIAL HOSPITAL,umhtx.org,"hifld WEBSITE (phone, name score 100)",medium,,
+451391,FRIO REGIONAL HOSPITAL,frioregionalhospital.com,dolthub homepage_url,medium,,
+460057,PARK CITY HOSPITAL,intermountainhealthcare.org,system website (known system affiliation),high,,
+461301,INTERMOUNTAIN HEALTH FILLMORE COMMUNITY HOSPITAL,intermountainhealthcare.org,"hifld WEBSITE (phone, name score 57) -> homepage redirect",medium,,listed domain ihc.com redirects to intermountainhealthcare.org
+461308,SAN JUAN HOSPITAL,sanjuanhealth.org,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,,listed domain sanjuanhealthservices.org redirects to sanjuanhealth.org
+490005,WINCHESTER MEDICAL CENTER,valleyhealthlink.com,"hifld WEBSITE (phone, name score 78)",medium,,
+490021,CENTRA HEALTH -  LYNCHBURG GEN HOSPITAL,centrahealth.com,"hifld WEBSITE (zip, name score 90)",medium,,
+490042,CARILION NEW RIVER VALLEY MEDICAL CENTER,carilionclinic.org,"hifld WEBSITE (phone, name score 100)",medium,,
+490075,SOVAH HEALTH DANVILLE,sovahhealth.com,system website (known system affiliation),high,,listed domain danvilleregional.org dead/stale/failing; replaced
+490115,TWIN COUNTY REGIONAL HOSPITAL,tcrh.org,dolthub homepage_url,medium,,
+490119,SENTARA PRINCESS ANNE HOSPITAL,sentara.com,dolthub homepage_url,high,,
+490127,BUCHANAN GENERAL HOSPITAL,bgh.org,"hifld WEBSITE (zip, name score 100)",medium,,
+500011,HIGHLINE MEDICAL CENTER,vmfh.org,system website (known system affiliation),high,St. Anne Hospital,listed domain highlinemedicalcenter.org dead/stale/failing; replaced; alias: renamed/legal entity name in index (verified by hand)
+501332,TRI-STATE MEMORIAL HOSPITAL,tristatehospital.org,"hifld WEBSITE (phone, name score 100)",medium,,
+510038,STONEWALL JACKSON MEMORIAL HOSPITAL COMPANY,wvumedicine.org,system website (known system affiliation),high,-,listed domain stonewallhospital.com dead/stale/failing; replaced; alias: no index entry for this hospital (verified by hand)
+510094,WILLIAMSON MEMORIAL INC,williamsonmemorial.net,"hifld WEBSITE (phone, name score 82)",medium,,
+520008,WAUKESHA MEMORIAL HOSPITAL,prohealthcare.org,"hifld WEBSITE (phone, name score 100)",medium,,
+520034,AURORA MEDICAL CTR MANITOWOC COUNTY,aurorahealthcare.org,dolthub homepage_url,high,,
+520071,FORT MEMORIAL HOSPITAL,forthealthcare.com,system website (known system affiliation),high,,
+521318,LADD MEMORIAL HOSPITAL,myomc.org,"hifld WEBSITE (phone, name score 100)",medium,,
+521321,RIPON MEDICAL CENTER,ssmhealth.com,"hifld WEBSITE (phone, name score 100) -> homepage redirect",medium,SSM Health Ripon Community Hospital,listed domain agnesian.com redirects to ssmhealth.com; alias: renamed/legal entity name in index (verified by hand)
+521339,ASPIRUS MERRILL HOSPITAL,aspirus.org,system website (known system affiliation),high,,
+521347,WESTERN WISCONSIN HEALTH,wwhealth.org,"hifld WEBSITE (phone, name score 100)",medium,,
+530014,CHEYENNE REGIONAL MEDICAL CENTER,cheyenneregional.org,dolthub homepage_url,medium,,
+530038,SUBLETTE COUNTY HEALTH,sublettehospitaldistrict.org,targeted web search,low,,
+670044,TEXAS HEALTH PRESBYTERIAN HOSPITAL ROCKWALL,texashealth.org,dolthub homepage_url,high,,
+670056,ASCENSION  SETON HAYS,healthcare.ascension.org,dolthub homepage_url,high,,
+670067,BAYLOR SCOTT AND WHITE ORTHOPEDIC AND SPINE HOSPI,bswhealth.com,system website (known system affiliation),high,,listed domain baylorarlington.com dead/stale/failing; replaced
+670090,CRESCENT MEDICAL CENTER LANCASTER,crescentregionalhospital.com,"hifld WEBSITE (zip, name score 100) -> homepage redirect",medium,,listed domain cmcl.us redirects to crescentregionalhospital.com
+670106,HCA HOUSTON HEALTHCARE PEARLAND,hcahoustonhealthcare.com,dolthub homepage_url,medium,,
+670122,HOUSTON METHODIST THE WOODLANDS HOSPITAL,houstonmethodist.org,"hifld WEBSITE (phone, name score 100)",medium,,
+670124,THE HOSPITALS OF PROVIDENCE HORIZON CITY CAMPUS,thehospitalsofprovidence.com,system website (known system affiliation),high,,
+670132,METHODIST SOUTHLAKE MEDICAL CENTER,methodisthealthsystem.org,"hifld WEBSITE (zip, name score 74) -> homepage redirect",low,,listed domain methodistsouthlake.com redirects to methodisthealthsystem.org
+670266,TOWNSEN MEMORIAL HOSPITAL,townsenmemorial.com,targeted web search,medium,,
+670300,METHODIST MIDLOTHIAN MEDICAL CENTER,methodisthealthsystem.org,system website (known system affiliation),high,,

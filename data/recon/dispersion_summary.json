@@ -1,0 +1,27 @@
+{
+ "pooled": {
+  "cells": 221981,
+  "n_1 through 10": 153472,
+  "n_11-30": 25601,
+  "n_31-150": 34398,
+  "n_>150": 8510,
+  "n_missing/0/other": 0,
+  "s_n": 220428,
+  "s_p10": 0.0,
+  "s_p25": 0.0,
+  "s_p50": 0.02,
+  "s_p75": 0.499,
+  "s_p90": 0.867,
+  "s_gt_0.3": 0.3303,
+  "n150_and_s_lt_0.3": 848,
+  "n_gt150_safe_share": 0.0996,
+  "band_out_1 through 10": "65365/80829",
+  "band_out_11-30": "10753/17804",
+  "band_out_31-150": "13483/28314",
+  "band_out_>150": "2688/5730",
+  "safe_share_of_s_cells": 0.0038
+ },
+ "mrfs": 59,
+ "per_mrf_safe_share_median": 0.002,
+ "mrfs_majority_safe": 0
+}

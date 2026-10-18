@@ -1,0 +1,90 @@
+{
+ "index_valid": {
+  "both_assessed": 289,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "location_listed": {
+  "both_assessed": 253,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "file_retrievable": {
+  "both_assessed": 250,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "open_format": {
+  "both_assessed": 238,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "no_bot_barrier": {
+  "both_assessed": 251,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "template_v3": {
+  "both_assessed": 237,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "updated_12mo": {
+  "both_assessed": 237,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "attested": {
+  "both_assessed": 237,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "fields_present": {
+  "both_assessed": 237,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "fields_populated": {
+  "both_assessed": 237,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ },
+ "no_count0_amounts": {
+  "both_assessed": 237,
+  "agree": 1.0,
+  "kappa": 1.0,
+  "fail_then_pass": 0,
+  "pass_then_fail": 0,
+  "resolved_on_day2": 0
+ }
+}

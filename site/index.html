@@ -1,0 +1,166 @@
+<title>Hospital Price File Audit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one plain text column, two tables. */
+:root {
+  --bg: #ffffff; --fg: #1b1f24; --muted: #5d6670; --rule: #d5dae0; --link: #1a5fb4;
+  --pass: #1d6b3a; --fail: #b3261e; --row: #f4f6f8;
+  --sans: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #15181c; --fg: #e3e6ea; --muted: #9aa3ad; --rule: #333a42; --link: #79a8e8;
+  --pass: #6cc18a; --fail: #f08a80; --row: #1d2126; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #15181c; --fg: #e3e6ea; --muted: #9aa3ad; --rule: #333a42; --link: #79a8e8;
+  --pass: #6cc18a; --fail: #f08a80; --row: #1d2126; color-scheme: dark }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 var(--sans); }
+main { max-width: 920px; margin: 0 auto; padding-block: 32px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font-size: 1.75rem; margin: 0 0 4px; line-height: 1.25; text-wrap: balance; }
+h2 { font-size: 1.2rem; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+p, li { max-width: 68ch; }
+.byline, .note { color: var(--muted); font-size: 0.9rem; }
+a { color: var(--link); }
+.wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; vertical-align: top; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom: 2px solid var(--rule); white-space: nowrap; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+tr.key td { font-weight: 600; background: var(--row); }
+.pass { color: var(--pass); } .fail { color: var(--fail); } .muted { color: var(--muted); }
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; margin: 12px 0; }
+.controls label { display: flex; flex-direction: column; gap: 2px; font-size: 0.85rem; color: var(--muted); }
+input, select { font: inherit; font-size: 0.95rem; padding: 5px 8px; border: 1px solid var(--rule); border-radius: 3px; background: var(--bg); color: var(--fg); }
+input { min-width: 0; width: 16rem; max-width: 100%; }
+input:focus-visible, select:focus-visible, a:focus-visible { outline: 2px solid var(--link); outline-offset: 1px; }
+td.res { white-space: nowrap; }
+</style>
+
+<main>
+  <h1>Hospital Price File Audit</h1>
+  <div class="byline"><a href="https://tristkenn.com">Tristan Kennedy</a> · files fetched <span id="asof"></span></div>
+
+  <p>Since April 1, 2026, CMS has required hospitals to add four columns to their published price files.
+    They report the median, 10th and 90th percentile of what insurers actually paid for each service, and the number of claims behind those figures.
+    I checked whether hospitals do this, using a random sample of 300 US hospitals and every non-federal hospital in Virginia.</p>
+  <p id="lead"></p>
+
+  <h2>Results by check</h2>
+  <div class="wrap"><table id="checks">
+    <thead><tr><th>Check</th><th class="num">US sample</th><th class="num">95% CI</th><th class="num">US n</th><th class="num">Virginia</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+  <p class="note">The US share is a stratified estimate (Census region × acute care or critical access), with the CI computed on the design-effective n.
+    Each share counts only hospitals where the check could be assessed. "All file requirements" counts every hospital, and any check I couldn't assess counts as a miss.
+    Rows marked in grey are reported but don't count toward a hospital's result.
+    Virginia is a full census, so its figures are counts with no sampling error.</p>
+
+  <h2>Look up a hospital</h2>
+  <div class="controls">
+    <label for="q">Name, city or website<input id="q" type="search" placeholder="e.g. Richmond"></label>
+    <label for="set">Group<select id="set"><option value="us">US sample (300)</option><option value="va">Virginia (91)</option></select></label>
+    <label for="show">Show<select id="show"><option value="all">All hospitals</option><option value="fail">Failed a file requirement</option><option value="clean">Passed all file requirements</option></select></label>
+  </div>
+  <div class="note" id="count"></div>
+  <div class="wrap"><table id="list">
+    <thead><tr><th>Hospital</th><th>Location</th><th>Result</th><th>Problems found</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+
+  <h2>Method</h2>
+  <ul>
+    <li><b>Sample.</b> The frame is 4,397 acute care and critical access hospitals from CMS Hospital General Information, excluding federally owned hospitals, which the rule exempts.
+      300 were drawn at random within strata, using proportional allocation and seed 20261018. I drew the sample before looking up any hospital's website, so a hospital that can't be found still counts.</li>
+    <li><b>Collection.</b> For each hospital, the script fetches <code>cms-hpt.txt</code> from its website, finds the hospital's entry and downloads the listed price file.
+      If a server refuses the request, it retries once with a browser user agent. Each file is read from its start, up to 300 MB.</li>
+    <li><b>Paid amounts reported.</b> This counts hospitals whose median allowed amount is filled in on more than 10% of payer rows where the rate is a percentage or algorithm, which is where CMS asks for it.
+      Files with no such rows are judged on all payer rows.
+      It isn't a pass/fail check: a count of 0 with blank amounts is allowed when the hospital has no claims in the 12 to 15 month lookback, and a file alone can't show whether that's true.</li>
+    <li><b>Not checked.</b> A check is left blank when an earlier step failed, or when the failure might be mine rather than the hospital's.
+      That covers a "not found" error on a website I looked up, a timeout, or my name matching failing to find the hospital in its index.
+      Blocked requests, broken HTTPS and empty indexes count as failures.</li>
+    <li><b>Advisory checks</b> are reported but don't count toward a hospital's result.
+      CMS's FAQ allows zipped files.
+      The rule bans barriers like required accounts, but it doesn't clearly ban blocking automated downloads.</li>
+    <li><b>Related work.</b> <a href="https://www.healthsystemtracker.org/brief/first-look-at-new-hospital-price-transparency-provisions-some-factors-complicate-price-comparisons/">Peterson-KFF (October 2026)</a> found counts of 0 in 92 to 95% of commercial percentage and algorithm rates, in schema-compliant files processed by Turquoise Health.
+      This page differs in two ways: hospitals are the unit, and hospitals whose files couldn't be found or read stay in the denominator.</li>
+    <li><b>Verified twice.</b> Every hospital was fetched again about 8 hours later, early on October 18, with fresh downloads.
+      <span id="retest"></span> A failure is shown only if it repeats on both fetches.</li>
+  </ul>
+
+  <h2>Limits</h2>
+  <ul>
+    <li>Results reflect two fetches on October 17–18, 2026. Hospitals update their files, so a failure here may already be fixed.</li>
+    <li>Website addresses came from DoltHub, HIFLD and some hand lookup. A wrong address shows up as "not checked", not as a failure.</li>
+    <li>Only the first 300 MB of each file is read, so the "filled in" check covers that portion of very large files.</li>
+  </ul>
+</main>
+
+<script>
+const LABEL = {
+  index_valid: "Price index (cms-hpt.txt) reachable",
+  location_listed: "Hospital listed in its index",
+  file_retrievable: "Price file downloads",
+  template_v3: "Uses CMS template v3",
+  updated_12mo: "Updated in the last 12 months",
+  attested: "Includes accuracy attestation",
+  fields_present: "2026 paid-amount columns present",
+  fields_populated: "Paid amounts reported on more than 10% of rows",
+  no_count0_amounts: "No amounts reported with a claim count of 0",
+  open_format: "Plain CSV or JSON, not zipped",
+  no_bot_barrier: "Open to automated download",
+};
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const pct = p => (100 * p).toFixed(1) + "%";
+// Not counted toward a hospital's result. A count of 0 with blank amounts is allowed when the hospital has no claims in the lookback window.
+const NOTE = {fields_populated: "not required if no claims", open_format: "advisory", no_bot_barrier: "advisory"};
+
+fetch("data.json").then(r => r.json()).then(D => {
+  $("#asof").textContent = new Date(D.as_of + "T12:00").toLocaleDateString("en-US", {year: "numeric", month: "long", day: "numeric"});
+  const req = D.checks.filter(c => c.required).map(c => c.id), adv = D.checks.filter(c => !c.required).map(c => c.id);
+  const us = D.summary.us, va = D.summary.va, c = us.clean;
+  $("#lead").innerHTML = `${pct(c.p)} of US hospitals (95% CI ${pct(c.ci95[0])}–${pct(c.ci95[1])}) passed every file requirement I could check, and ${pct(us.fields_present.p)} of readable files include the new columns.
+    <b>But only ${pct(us.fields_populated.p)} (${pct(us.fields_populated.ci95[0])}–${pct(us.fields_populated.ci95[1])}) report paid amounts on more than a tenth of their rows.</b>
+    The rest mostly enter a claim count of 0, which the rule allows when a hospital has no claims to report.
+    In Virginia, ${va.clean.pass} of ${va.hospitals} hospitals passed every checked requirement and ${va.fields_populated.pass} report paid amounts.`;
+
+  const row = (id, label, cls = "") => {
+    const u = us[id], v = va[id];
+    return `<tr class="${cls}"><td>${label}</td><td class="num">${pct(u.p)}</td><td class="num">${pct(u.ci95[0])}–${pct(u.ci95[1])}</td>
+      <td class="num">${u.assessed}</td><td class="num">${v.pass} / ${v.assessed}</td></tr>`;
+  };
+  $("#checks tbody").innerHTML = req.map(id => row(id, LABEL[id])).join("")
+    + row("clean", "All file requirements", "key")
+    + adv.map(id => row(id, LABEL[id] + ` <span class="muted">(${NOTE[id]})</span>`)).join("");
+
+  const status = h => {
+    const failed = req.filter(id => h.checks[id] === 0), skipped = req.filter(id => h.checks[id] === null);
+    return {failed, skipped, advFailed: adv.filter(id => h.checks[id] === 0)};
+  };
+  const render = () => {
+    const q = $("#q").value.trim().toLowerCase(), set = $("#set").value, show = $("#show").value;
+    const rows = D.hospitals.filter(h => h.set === set)
+      .filter(h => !q || [h.name, h.city, h.state, h.domain].join(" ").toLowerCase().includes(q))
+      .map(h => ({h, s: status(h)}))
+      .filter(({h, s}) => show === "all" || (show === "clean" ? h.clean : s.failed.length > 0))
+      .sort((a, b) => a.h.name.localeCompare(b.h.name));
+    $("#count").textContent = `${rows.length} hospital${rows.length === 1 ? "" : "s"}`;
+    $("#list tbody").innerHTML = rows.map(({h, s}) => {
+      const res = h.clean ? '<span class="pass">Passed</span>'
+        : s.failed.length ? `<span class="fail">Failed ${s.failed.length}</span>` : '<span class="muted">Incomplete</span>';
+      const probs = [...s.failed.map(id => LABEL[id]),
+        ...s.advFailed.map(id => `<span class="muted">Not met: ${LABEL[id]} (${NOTE[id]})</span>`)];
+      if (s.skipped.length) probs.push(`<span class="muted">Not checked: ${s.skipped.length} check${s.skipped.length > 1 ? "s" : ""}</span>`);
+      return `<tr><td>${esc(h.name)}<br><span class="muted">${esc(h.domain || "no website found")}</span></td>
+        <td>${esc(h.city)}, ${h.state}</td><td class="res">${res}</td><td>${probs.join("<br>") || '<span class="muted">None</span>'}</td></tr>`;
+    }).join("");
+  };
+  if (D.retest) {
+    const r = Object.values(D.retest), agree = r.reduce((a, x) => a + x.agree * x.both_assessed, 0), n = r.reduce((a, x) => a + x.both_assessed, 0);
+    $("#retest").textContent = `Across ${n.toLocaleString()} check results assessed on both fetches, ${pct(agree / n)} matched.`;
+  }
+  ["#q", "#set", "#show"].forEach(s => $(s).addEventListener("input", render));
+  render();
+}).catch(() => { $("#lead").textContent = "The data file didn't load. If you opened this page from disk, serve the folder instead: python -m http.server, run inside site/."; });
+</script>

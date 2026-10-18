@@ -1,0 +1,201 @@
+{
+ "funnel": {
+  "sampled": 300,
+  "domain found": 300,
+  "index ok": 262,
+  "matched to an mrf-url": 251,
+  "parseable": 237,
+  "fields present": 217,
+  "populated (>10% of payer rows)": 27
+ },
+ "populated share | all rows | all sampled (non-response = not populated)": {
+  "k": 27,
+  "n": 300,
+  "p": 0.0896,
+  "se": 0.0155,
+  "ci95": [
+   0.0636,
+   0.1249
+  ]
+ },
+ "populated share | all rows | parseable responders": {
+  "k": 27,
+  "n": 237,
+  "p": 0.1145,
+  "se": 0.0196,
+  "ci95": [
+   0.0815,
+   0.1585
+  ]
+ },
+ "populated share | pct/alg rows | all sampled (non-response = not populated)": {
+  "k": 41,
+  "n": 300,
+  "p": 0.1364,
+  "se": 0.0192,
+  "ci95": [
+   0.1031,
+   0.1784
+  ]
+ },
+ "populated share | pct/alg rows | parseable responders": {
+  "k": 41,
+  "n": 237,
+  "p": 0.1729,
+  "se": 0.024,
+  "ci95": [
+   0.1309,
+   0.2249
+  ]
+ },
+ "pooled rows (unique files)": {
+  "rows": 53423355,
+  "populated": 1340395,
+  "req_rows": 24357075,
+  "req_populated": 1078999,
+  "files": 237,
+  "share": 0.0251,
+  "req_share": 0.0443
+ },
+ "index failures by status": [
+  [
+   "fail",
+   38
+  ],
+  [
+   "ok but no matching location entry",
+   9
+  ],
+  [
+   "ok but no location entries",
+   2
+  ]
+ ],
+ "top defects (domain, defect, hospitals)": [
+  [
+   "healthcare.ascension.org",
+   "cms-hpt.txt 403/406 to plain client; served with browser UA",
+   5
+  ],
+  [
+   "healthcare.ascension.org",
+   "MRF 403/406 to plain client; served with browser UA",
+   4
+  ],
+  [
+   "northside.com",
+   "MRF 403/406 to plain client; served with browser UA",
+   3
+  ],
+  [
+   "avera.org",
+   "cms-hpt.txt 403/406 to plain client; served with browser UA",
+   3
+  ],
+  [
+   "avera.org",
+   "MRF 403/406 to plain client; served with browser UA",
+   3
+  ],
+  [
+   "providence.org",
+   "cms-hpt.txt 403/406 to plain client; served with browser UA",
+   2
+  ],
+  [
+   "bannerhealth.com",
+   "cms-hpt.txt 403/406 to plain client; served with browser UA",
+   2
+  ],
+  [
+   "healthy.kaiserpermanente.org",
+   "# rows encode allowed amounts with count=0 (spec: leave blank)",
+   2
+  ],
+  [
+   "sghs.org",
+   "cms-hpt.txt 403/406 to plain client; served with browser UA",
+   2
+  ],
+  [
+   "sghs.org",
+   "template version 2.0.0 (not v3.0)",
+   2
+  ],
+  [
+   "sghs.org",
+   "last_updated_on # predates 2026 rule",
+   2
+  ],
+  [
+   "sghs.org",
+   "missing 2026 fields: 10th_percentile,90th_percentile,count,median_amount",
+   2
+  ],
+  [
+   "hshs.org",
+   "MRF served as .zip (CMS requires CSV or JSON)",
+   2
+  ],
+  [
+   "mercy.net",
+   "MRF served as .zip (CMS requires CSV or JSON)",
+   2
+  ],
+  [
+   "christushealth.org",
+   "missing 2026 fields: 10th_percentile,90th_percentile,median_amount",
+   2
+  ],
+  [
+   "intermountainhealthcare.org",
+   "MRF served as .zip (CMS requires CSV or JSON)",
+   2
+  ],
+  [
+   "methodisthealthsystem.org",
+   "MRF served as .zip (CMS requires CSV or JSON)",
+   2
+  ],
+  [
+   "baptistfirst.org",
+   "last_updated_on # predates 2026 rule",
+   1
+  ],
+  [
+   "baptistfirst.org",
+   "# rows encode allowed amounts with count=0 (spec: leave blank)",
+   1
+  ],
+  [
+   "al.hughston.com",
+   "cms-hpt.txt 403/406 to plain client; served with browser UA",
+   1
+  ],
+  [
+   "al.hughston.com",
+   "MRF 403/406 to plain client; served with browser UA",
+   1
+  ],
+  [
+   "ykhc.org",
+   "cms-hpt.txt 403/406 to plain client; served with browser UA",
+   1
+  ],
+  [
+   "maniilaq.org",
+   "# rows encode allowed amounts with count=0 (spec: leave blank)",
+   1
+  ],
+  [
+   "narmc.com",
+   "template version 2.0.0 (not v3.0)",
+   1
+  ],
+  [
+   "narmc.com",
+   "last_updated_on # predates 2026 rule",
+   1
+  ]
+ ]
+}

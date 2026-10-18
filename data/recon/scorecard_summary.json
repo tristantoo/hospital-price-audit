@@ -1,0 +1,154 @@
+{
+ "as_of": "2026-10-17",
+ "hospitals": 91,
+ "design": "census (no sampling error)",
+ "index_valid": {
+  "pass": 82,
+  "assessed": 90,
+  "not_assessable": 1,
+  "p": 0.9111
+ },
+ "location_listed": {
+  "pass": 82,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 1.0
+ },
+ "file_retrievable": {
+  "pass": 82,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 1.0
+ },
+ "open_format": {
+  "pass": 75,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 0.9146
+ },
+ "no_bot_barrier": {
+  "pass": 64,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 0.7805
+ },
+ "template_v3": {
+  "pass": 74,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 0.9024
+ },
+ "updated_12mo": {
+  "pass": 74,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 0.9024
+ },
+ "attested": {
+  "pass": 82,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 1.0
+ },
+ "fields_present": {
+  "pass": 73,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 0.8902
+ },
+ "fields_populated": {
+  "pass": 23,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 0.2805
+ },
+ "no_count0_amounts": {
+  "pass": 80,
+  "assessed": 82,
+  "not_assessable": 9,
+  "p": 0.9756
+ },
+ "clean": {
+  "pass": 71,
+  "assessed": 91,
+  "not_assessable": 0,
+  "p": 0.7802
+ },
+ "worst domains (hospitals, required fails)": [
+  [
+   "dbhds.virginia.gov",
+   6,
+   18
+  ],
+  [
+   "marywashingtonhealthcare.com",
+   2,
+   6
+  ],
+  [
+   "valleyhealthlink.com",
+   4,
+   4
+  ],
+  [
+   "centrahealth.com",
+   3,
+   3
+  ],
+  [
+   "carilionclinic.org",
+   6,
+   2
+  ],
+  [
+   "virginiahospitalcenter.com",
+   1,
+   1
+  ],
+  [
+   "pavilionwp.com",
+   1,
+   1
+  ],
+  [
+   "balladhealth.org",
+   6,
+   0
+  ],
+  [
+   "sentara.com",
+   11,
+   0
+  ],
+  [
+   "uvahealth.com",
+   4,
+   0
+  ],
+  [
+   "bonsecours.com",
+   11,
+   0
+  ],
+  [
+   "augustahealth.com",
+   1,
+   0
+  ],
+  [
+   "hcavirginia.com",
+   10,
+   0
+  ],
+  [
+   "fauquierhealth.org",
+   1,
+   0
+  ],
+  [
+   "vcuhealth.org",
+   3,
+   0
+  ]
+ ]
+}

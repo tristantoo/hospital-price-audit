@@ -51,4 +51,8 @@ uv run python src/retest.py data/national
 
 The census downloads up to 300 MB per hospital (about 26 GB in total). Raw files are not committed. Hospital files change over time, so a fresh run will not match these numbers exactly.
 
+## Authorship
+
+Built with AI coding assistance (Claude Code). I set the scope and questions and reviewed the methods, code and results.
+
 Tristan Kennedy, Department of Mathematics and Statistics, Virginia Commonwealth University.
